@@ -1,0 +1,18 @@
+fetch_travel_deals:
+  description: >
+    Search for travel deals including flights, hotels, and tours.
+    Use APIs and scraping tools to gather data.
+  expected_output: >
+    A structured JSON object containing the top 5 deals for flights, hotels, and tours.
+
+generate_recommendations:
+  description: >
+    Analyze user preferences and travel deals to generate tailored travel package recommendations.
+  expected_output: >
+    A list of three personalized travel packages with pricing and key details.
+
+handle_queries:
+  description: >
+    Interpret and respond to user queries about travel, such as pricing, availability, and recommendations.
+  expected_output: >
+    Clear and concise responses to user inquiries, addressing their specific questions.
